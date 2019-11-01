@@ -1,0 +1,49 @@
+
+
+.notThisMonth, .notThisMonth:hover {
+    background: Silver;
+    color: gray;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    border:0;
+    user-select: none;
+    margin: auto;
+}
+
+caption {
+    font-size: 25px;
+    background: Turquoise;  
+}
+
+th {
+    background: Turquoise;
+}
+
+td, th, caption {
+    padding: 10px;
+}
+
+
+.holliday {
+    background: MediumPurple;
+}
+
+.holliday:hover{
+    background: DarkSlateBlue;
+}
+
+td:hover {
+    transition: 1s;
+    background: MediumBlue;
+    color: white;
+}
+
+td:active {
+    background: Navy;
+    color: white;
+}
+
+
